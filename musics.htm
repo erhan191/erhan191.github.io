@@ -1,35 +1,123 @@
 <!DOCTYPE html>
 
 <html>
-<title>Musics</title>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Musics</title>
+		<link rel="icon" type="image/ico" href="Images/person.png">
+		
+	</head>	
+
 	<body>
 		
-	
+
+		<nav class="navbar navbar-exopand-md navbar-inverse navbar-fixed-top">
+					<div class="container-fluid">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigaton">	
+						<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span> 
+					</button>
+				 <div class="collapse navbar-collapse" id="navigaton">
+      				
+      				<ul class="nav navbar-nav">
+        				<li><a href="index.htm">Home</a></li>
+        				<li class="active"><a href="musics.htm " >Musics</a></li>
+        				<li><a href="films.htm">Films</a></li>
+        				<li><a href="tvseries.htm">Tv Series</a></li> 
+        				<li><a href="games.htm">Games</a></li>
+        				<li><a href="books.htm">Books</a></li> 
+        				<li><a href="usefullinks.htm">Useful Links</a></li> 
+        				<li><a href="contactme.htm">Contact Me</a></li> 
+        				<li><a href="registration.htm">Registration</a></li> 
+      				</ul>
+      				<ul class="nav navbar-nav navbar-right">
+      					<li><a href="registration.htm"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+     				 	<li><a href="login.htm"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    				</ul>
+				</div>
+			</div>
+		</nav>
 		
-		<div align="left"><p>
-			<a href="index.htm">HOME</a> |
-			<font size="15"><a href="musics.htm">MUSICS</a></font>|
-			<a href="films.htm">FILMS</a>|
-			<a href="tvseries.htm">TV SERIES</a>|
-			<a href="games.htm">GAMES</a>|
-			<a href="books.htm">BOOKS</a>|
-			<a href="usefullinks.htm">USEFUL LINKS</a>|
-			<a href="contactme.htm">CONTACT ME </a>|
-			<a href="registration.htm">REGISTRATION</a>
-		</p>
-		<br>
-	</div>
-		<div align="center"><h2>Here is one of my favorite musics</h2><br>
-			<img src="Images\metallica-png-metallica-png-file-1571.png" width="785" height="272" alt="Metallica">
-			<h3>Metallica - Unforgiven II</h3>
-			<h5>Metallica is an American heavy metal band.<br>The band was formed in 1981 in Los Angeles, California by drummer Lars Ulrich and vocalist/guitarist James Hetfield,<br>and has been based in San Francisco, California for most of its career.</h5>
+		
+	
 
-			<h6>For more information about group,please click <a href="http://www.wikizero.biz/index.php?q=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTWV0YWxsaWNh" target="_blank"> here </h6>
-		<audio controls>
-			<embed src="Music\The Unforgiven II - Metallica.mp3">
-			<source src="Music\The Unforgiven II - Metallica.mp3" type="audio/mpeg">
-		</audio>
+			<div class="container">
+			<div class="row">
+				<div class="col-4">
+				<div id="metallicaCarousel" class="carousel slide" data-ride="carousel" style="margin:0 10% 0 10%;">
+ 		 			<ol class="carousel-indicators">
+    					<li data-target="#metallicaCarousel" data-slide-to="0" class="active"></li>
+    					<li data-target="#metallicaCarousel" data-slide-to="1"></li>
+   		 				<li data-target="#metallicaCarousel" data-slide-to="2"></li>
+   		 				<li data-target="#metallicaCarousel" data-slide-to="3"></li>			
 
+  					</ol>
 
+  					<div class="carousel-inner">
+   						 <div class="item active">
+    						<img src="Images\metallica.jpg" alt="metallica" class="d-block  w-100">
+    					</div>
+    					<div class="item">
+    						<img src="Images\metallica1.jpg" alt="metallica" class="d-block w-100" >
+    					</div><div class="item">
+    						<img src="Images\metallica2.jpg" alt="metallica" class="d-block w-100" >
+    					</div>
+    					<div class="item">
+    						<img src="Images\metallica3.jpg" alt="metallica" class="d-block w-100" >
+    					</div>
+    				
+  					</div>
+
+  
+ 				 <a class="left carousel-control" href="#metallicaCarousel" data-slide="prev">
+  				  <span class="glyphicon glyphicon-chevron-left"></span>
+   			 		<span class="sr-only">Previous</span>
+  				</a>
+  				<a class="right carousel-control" href="#metallicaCarousel" data-slide="next">
+   			 		<span class="glyphicon glyphicon-chevron-right"></span>
+   			 		<span class="sr-only">Next</span>
+  				</a>
+			</div>
+				<div class="col-md-4" >
+   				 	
+   				 		<h3>Metallica - The Unforgiven II</h3>
+   				 		<audio controls>
+ 						 <source src="Music\The Unforgiven II - Metallica.mp3" type="audio/mpeg">
+ 						 </audio>
+				</div>
+ 
+    				
+    				<div class="col-md-8" >
+    					<div align="center" style="margin-top:5%;"> 
+    						<h4>Metallica is an American heavy metal band.The band was formed in 1981 in Los Angeles, California by drummer Lars Ulrich and vocalist/guitarist James Hetfield,and has been based in San Francisco, California for most of its career.</h4><h6>For more information about group,please click <a href="http://www.wikizero.biz/index.php?q=aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTWV0YWxsaWNh" target="_blank"> here </a></h6>
+						</div>
+				</div>
+
+			</div>
+		</div>
+		
+	
+
+  			<div class="container-fluid padding">
+  			<div class="row text-center padding">
+  					<div class="col-12">
+  						<h2 style="margin:20px 0 -20px 0;">CONNECT</h2>
+  					</div>
+  					<div class="col-12 social padding">
+  						<a href="https://www.linkedin.com/in/erhan-k-666766125/" target="_blank"> <i class="fa fa-linkedin"></i></a>
+  						<a href="https://twitter.com/erhan229" target="_blank"> <i class="fa fa-twitter"></i></a>
+  						<a href="https://www.instagram.com/erhan229/" target="_blank"> <i class="fa fa-instagram"></i></a>
+  						<a href="mailto:erhankilic1998@gmail.com" target="_blank"><i class="fa fa-google"></i></a>
+              <a href="https://open.spotify.com/user/11154751382?si=e3rbNEbXSAeSRkLNF5L_qA" target="_blank"><i class="fa fa-spotify"></i></a>
+  					</div>
+  			</div>
+  			</div>
 	</body>
 </html>
